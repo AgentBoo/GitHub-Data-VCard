@@ -1,0 +1,99 @@
+body{
+  box-sizing: border-box;
+  color: #8c8989;
+  font-family: Arial;
+  line-height: 1.7;
+  margin: 0 auto;
+}
+
+h2{
+  color: black;
+  font-family: 'Bitter', serif;
+  font-size: 38px;
+}
+
+/* NOTE: Header */
+.c-myName {
+  width: 100%;
+}
+
+.c-myName h1{
+  font-family: 'Roboto Slab', serif;
+  margin: 0 auto;
+  padding: 20px 0 7.5px;
+}
+
+.f-myName{
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+.s-myName {
+  background-color: #262525;
+}
+
+/* NOTE: Main - Basics*/
+.c-main{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.c-theBasics{
+  min-width: 200px;
+  padding: 30px 10px 40px 16.5%;
+  flex: 1;
+}
+
+
+.f-section--category{
+  color: #6fc6bc;
+  padding: 3px;
+}
+
+.f-section--url{
+  color: black;
+  text-decoration: underline;
+}
+
+
+/* NOTE: Main - Story */
+
+.c-theStory{
+  min-width: 250px;
+  flex: 2.5;
+  padding: 30px 40px 40px 10px;
+}
+
+.c-theStory h2 {
+  padding: 0 0 0 30px;
+}
+.c-theStory p{
+  border-left: solid #8c8989 thin;
+  padding: 0 0 0 30px;
+}
+
+img{
+  float: right;
+  border-radius: 50%;
+  max-width: 110px;
+  max-height: 110px;
+  padding: 20px 25% 20px 100px;
+}
+
+
+/* NOTE: Zigzag */
+.zigzag{
+  position: relative;
+}
+
+.zigzag:after{
+  background: linear-gradient(-45deg, #ffffff 16px, transparent 0), linear-gradient(45deg, #ffffff 16px, transparent 0);
+  background-repeat: repeat-x;
+  background-size: 32px 32px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 32px;
+}
