@@ -2,7 +2,7 @@
 // NOTE: Ajax Request
 const request = new XMLHttpRequest();
 request.open("GET", "https://api.github.com/AgentBoo");
-request.addEventListener("load", retrieveData);
+// request.addEventListener("load", retrieveData);
 request.send();
 
 function retrieveData(){
