@@ -1,8 +1,8 @@
 // document.write("Hi");
 // NOTE: Ajax Request
 const request = new XMLHttpRequest();
-request.open("GET", "https://api.github.com/AgentBoo");
-// request.addEventListener("load", retrieveData);
+request.open("GET", "https://api.github.com/users/AgentBoo?authorization_request=e90d0ba92bad62ca81a8b8d3fc47537c69458d04");
+request.addEventListener("load", retrieveData);
 request.send();
 
 function retrieveData(){
